@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Ariadne Romero">
+    <meta name="description" content="Portafolio de desarrollo web de Ariadne Romero">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Ariadne Romero">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Titulo -->
+    <title>Ariadne Romero | Desarrollo Web Front-End</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon-16x16.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/android-chrome-512x512.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Foto_Ari2.jpg" alt="Foto de Ariadne Romero">
+        <h1>Hola, soy Ariadne Romero</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-info mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Ariadne Romero</h2>
+        <p class="seccion-texto">¡Hola! soy estudiante de Licenciatura en Ciencias Computacionales en la Universidad Autonóma de Nuevo León (UANL). Actualmente estoy aprendiendo programación frontend en Tecnologías PRO, y estoy dando mis primeros pasos en la programación competitiva. Me encantan las matemáticas y me gusta escuchar música, especialmente el rock.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Construyo sitios web responsivos, y modernos y minimalistas con diferentes tecnologias y frameworks de acuerdo a las tendencias.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+            </div>
+          </div>
+          <!-- Programitas -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Programitas</p>
+            <p>Suelo hacer programas para practicar y documentar lo que aprendo. <a href="https://github.com/AriadneRomero">Aqui</a> podras ver los pequeños programas que hago día a día.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Probar</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Codificar</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Soy estudiante de tercer semestre en la carrera de Ciencias Computacionales, en la Universidad Autonóma de Nuevo León.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas</span>
+              <span class="badge text-bg-primary">Frontend</span>
+              <span class="badge text-bg-primary">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo2">Mis proyectos web recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/clonGoogle.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clonación Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AriadneRomero/clonaciongoogle" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://clonaciongoogle-ari.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Calculadora2.jpg" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Calculadora</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/AriadneRomero/CalculadoraJavascript" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://calculadorasuma-ari.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/AriadneRomero" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo2">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://nancynsalazar.medium.com/gu%C3%ADa-r%C3%A1pida-para-construir-tu-portafolio-como-programador-a-9f02daeabb12" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Guía rápida para construir tu portafolio como programador(a)
+            </li>
+          </a>
+          <a href="https://nancynsalazar.medium.com/c%C3%B3mo-ser-un-a-mejor-programador-a-749c1bf98990" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cómo ser un(a) mejor programador(a)
+            </li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
+            </li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas
+            </li>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo2">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis colegas...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Nancy.jpg" alt="Foto de Nancy">
+              <p class="testimonio-texto">Ariadne demostó ser una estudiante muy proactiva y estusiasta durante toda su participación en el bootcamp de Tecnolochicas PRO. La recomiendo ampliamente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nancy Salazar</p>
+                <p class="cargo">Instructora en Tecnolochicas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/mayra.jpg" alt="Foto de Mayra">
+              <p class="testimonio-texto"> Ariadne, demostró ser una participante proactiva, colaboradora, entusiasta y con una  gran iniciativa para aprender durante el Bootcamp de Tecnolochicas PRO, dónde la conocí. Fue un placer trabajar con ella, la recomiendo ampliamente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Mayra Yépez</p>
+                <p class="cargo">Estudiante de Ing.Tecnologías de la información</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Monica.png" alt="Foto de Monica">
+              <p class="testimonio-texto">Ariadne es una compañera muy amigable y creativa, durante el Bootcamp de Tecnolochicas PRO demostró estar dispuesta a enfrentar nuevos retos y aprender, es adapatable y paciente. Altamente recomendable colaborar con ella.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Monica Ivette Vergara</p>
+                <p class="cargo">Ing. Tecnologías de Cómputo y Telecomunicaciones,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:ariadneselena12@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/android-chrome-512x512.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Si lo puedo imaginar, lo puedo programar {💗}. </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a> -->
+        <a href="https://github.com/AriadneRomero" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ariadneromero/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/ariadneselena03/?next=%2F" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:ariadneselena12@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado con {💗} por Ariadne Romero(2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
